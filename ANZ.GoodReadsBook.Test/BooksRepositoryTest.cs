@@ -38,7 +38,7 @@ namespace ANZ.GoodReadsBook.Test
 
             var averageRating = topReview.Where(x => x.Author == "A").Select(x => x.AverageRating).FirstOrDefault();
 
-            Assert.Equal("4.5", averageRating);
+            Assert.Equal("4.5",averageRating);
         }
     }
 }

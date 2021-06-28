@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ANZ.GoodReadBook.BL", "ANZ.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANZ.GoodReadsBook.Test", "ANZ.GoodReadsBook.Test\ANZ.GoodReadsBook.Test.csproj", "{3EDBB772-FF94-4F85-BABB-2DC967E23510}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANZ.GoodReadsBook.IntegrationTest", "ANZ.GoodReadsBook.IntegrationTest\ANZ.GoodReadsBook.IntegrationTest.csproj", "{932A5305-7EC1-4B2F-99B1-E774477FDA44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3EDBB772-FF94-4F85-BABB-2DC967E23510}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EDBB772-FF94-4F85-BABB-2DC967E23510}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EDBB772-FF94-4F85-BABB-2DC967E23510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{932A5305-7EC1-4B2F-99B1-E774477FDA44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932A5305-7EC1-4B2F-99B1-E774477FDA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932A5305-7EC1-4B2F-99B1-E774477FDA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932A5305-7EC1-4B2F-99B1-E774477FDA44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
