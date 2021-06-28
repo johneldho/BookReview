@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ANZ.GoodReadBook.DBModel\ANZ.GoodReadBook.DBModel\ANZ.GoodReadBook.DBModel.csproj" />
+    <ProjectReference Include="..\..\ANZ.GoodReadBook.DL\ANZ.GoodReadBook.DL\ANZ.GoodReadBook.DL.csproj" />
+  </ItemGroup>
+
+</Project>

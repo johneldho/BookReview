@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ANZ.GoodReadsBook.Web", "ANZ.GoodReadsBook.Web\ANZ.GoodReadsBook.Web.csproj", "{5474075C-E635-4EEE-9DFC-FA68F46AFDF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ANZ.GoodReadBook.DL", "ANZ.GoodReadBook.DL\ANZ.GoodReadBook.DL\ANZ.GoodReadBook.DL.csproj", "{1786F53F-234C-4D23-92BD-F68E282F1AA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ANZ.GoodReadBook.DBModel", "ANZ.GoodReadBook.DBModel\ANZ.GoodReadBook.DBModel\ANZ.GoodReadBook.DBModel.csproj", "{8F56AD1F-D614-4BA6-890D-FB5EFA8B6C7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ANZ.GoodReadBook.BL", "ANZ.GoodReadBook.BL\ANZ.GoodReadBook.BL\ANZ.GoodReadBook.BL.csproj", "{CFB0B615-E404-4D15-B2A6-C07137CB59C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANZ.GoodReadsBook.Test", "ANZ.GoodReadsBook.Test\ANZ.GoodReadsBook.Test.csproj", "{3EDBB772-FF94-4F85-BABB-2DC967E23510}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5474075C-E635-4EEE-9DFC-FA68F46AFDF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5474075C-E635-4EEE-9DFC-FA68F46AFDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5474075C-E635-4EEE-9DFC-FA68F46AFDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5474075C-E635-4EEE-9DFC-FA68F46AFDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1786F53F-234C-4D23-92BD-F68E282F1AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1786F53F-234C-4D23-92BD-F68E282F1AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1786F53F-234C-4D23-92BD-F68E282F1AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1786F53F-234C-4D23-92BD-F68E282F1AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F56AD1F-D614-4BA6-890D-FB5EFA8B6C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F56AD1F-D614-4BA6-890D-FB5EFA8B6C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F56AD1F-D614-4BA6-890D-FB5EFA8B6C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F56AD1F-D614-4BA6-890D-FB5EFA8B6C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB0B615-E404-4D15-B2A6-C07137CB59C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB0B615-E404-4D15-B2A6-C07137CB59C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB0B615-E404-4D15-B2A6-C07137CB59C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB0B615-E404-4D15-B2A6-C07137CB59C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EDBB772-FF94-4F85-BABB-2DC967E23510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDBB772-FF94-4F85-BABB-2DC967E23510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDBB772-FF94-4F85-BABB-2DC967E23510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDBB772-FF94-4F85-BABB-2DC967E23510}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08755D43-22DC-45A4-84AB-0CABB484CB4A}
+	EndGlobalSection
+EndGlobal
