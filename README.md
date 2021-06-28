@@ -21,11 +21,16 @@ Another Lambda service will process the loaded data from the review table and ag
 There are two tables used for this APP. ***Review table***: which acts as a staging table to load the CSV file and ***ReviewAggregate table***: aggregates as an average rating of each book. This table is used as a back end table for the C# web API.
 
 #### WEB API ####
-The backend Web API is built on .Net Core. This API exposes a controller for finding the top writers by average rating. The API uses the Entity framework for Core to connect to Postgres DB. Route 53 is used to configure the URL to be accessible to the Internet.
+The backend Web API is built on .Net Core. This API exposes a controller for finding the top writers by average rating. The API uses the Entity framework for Core to connect to Postgres DB. Route 53 is used to configure the URL to be accessible to the Internet. This runs on docker using the ECS service. 
 The API definition can be accessible through the Swagger URL as below 
 > https://localhost/5001/swagger
 
-***NB: The API is currently using the In-memory DB as a MOCK***
+***NB: The API is currently using the In-memory DB as a MOCK. Also instead of the angular App UI, swagger UI is enabled for viewing the API results.***
 
 #### Front UI ####
-The front end UI can be build using the angular app. The angular app is deployed to S3 which is configured as a web host and connected to the CloudFront which exposes the website to the Internet.
+The front end UI is build using the angular app. The angular app is deployed to S3 which is configured as a web host and connected to the CloudFront which exposes the website to the Internet.
+
+
+## Assumptions
+* The input books' rating CSV file is a batch load.
+* A single book gets a rating by the same customer only once.
