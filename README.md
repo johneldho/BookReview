@@ -23,7 +23,7 @@ There are two tables used for this APP. ***Review table***: which acts as a stag
 #### WEB API ####
 The backend Web API is built on .Net Core. This API exposes a controller for finding the top writers by average rating. The API uses the Entity framework for Core to connect to Postgres DB. Route 53 is used to configure the URL to be accessible to the Internet. This runs on docker using the ECS service. 
 The API definition can be accessible through the Swagger URL as below 
-> https://localhost/5001/swagger
+> http://localhost:52313/swagger/index.html
 
 ***NB: The API is currently using the In-memory DB as a MOCK. Also instead of the angular App UI, swagger UI is enabled for viewing the API results.***
 
